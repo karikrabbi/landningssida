@@ -1,0 +1,48 @@
+.body{
+    background-image: url(krooms.jpg);
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;  
+}
+.projekter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: x-large;
+    align-items: center;
+}
+.projekter a,
+.projekter a:active,
+.projekter a:focus,
+.projekter a:visited {
+    color: black;
+    text-decoration: none;
+    display: flex;                
+    align-items: center;          
+    justify-content: center;     
+    border: solid black;
+    width: 15vw;
+    aspect-ratio: 4 / 1;
+    padding: 0;
+    background-color: bisque;
+    text-align: center;
+    margin: 0 auto; 
+}
+.projekter a:hover{
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: white;
+}
+
+
+@media screen and (max-height: 300px) {
+  .projekter{
+    gap: 5px;
+  }
+}
